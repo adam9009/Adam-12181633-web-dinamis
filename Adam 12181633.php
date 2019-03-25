@@ -56,7 +56,7 @@
     echo "<br>";
     print_r( explode( '|', $str, - 1 ) );
     //4
-    $path = '/Users/zhangrongxiang/WorkSpace/phpProjects/PHPTEST';
+    $path = '/Users/Adam/WorkSpace/phpProjects/PHPTEST';
     echo "<br>";
     $rs = explode( '/', $path );
     print_r( $rs );
@@ -64,8 +64,8 @@
     //5
     $data = "foo:*:1023:1000::/home/foo:/bin/sh";
     list( $user, $pass, $uid, $gid, $gecos, $home, $shell ) = explode( ":", $data );
-    echo $user . PHP_EOL; 
-    echo $pass . PHP_EOL; 
+    echo $user;
+    echo $pass;
     print_r( explode( ';', $data ) );
     ?>
 </body>
